@@ -11,7 +11,22 @@
             height: 100vh; 
             display: flex; 
             align-items: center; 
-            justify-content: center; 
+            justify-content: center;
+            position: relative;
+        }
+
+        .footer-text {
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+            font-size: 14px;
+            font-family: 'Arial', sans-serif;
+            color: #ffffff;
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 5px 10px;
+            border-radius: 5px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+            font-weight: bold;
         }
     </style>
 </head>
@@ -23,5 +38,10 @@
             <a href="chat.html" class="bg-black text-purple-600 px-8 py-4 rounded-full text-xl font-semibold shadow-xl hover:bg-purple-600 hover:text-white transition-all duration-300">Chat</a>
         </div>
     </div>
+
+    <div class="footer-text">
+        Made by Hidaksh
+    </div>
 </body>
 </html>
+
